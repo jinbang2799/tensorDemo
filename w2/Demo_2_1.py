@@ -1,7 +1,10 @@
 import tensorflow as tf
+import os
+
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 # 创建一个常量op
-m1 = tf.constant([[3, 3]])
+m1 = tf.constant([[3, 3], [3, 3]])
 # 创建一个常量op
 m2 = tf.constant([[2], [3]])
 # 创建一个矩阵乘法op，传入m1,m2

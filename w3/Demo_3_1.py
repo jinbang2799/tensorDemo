@@ -1,12 +1,8 @@
 # coding: utf-8
 
-# In[1]:
-
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
-
-# In[6]:
 
 # 使用numpy生成200个随机点
 x_data = np.linspace(-0.5, 0.5, 200, dtype='float32')[:, np.newaxis]
@@ -39,5 +35,3 @@ with tf.Session() as sess:
     plt.scatter(x_data, y_data)
     plt.plot(x_data, prediction_value, 'r-', lw=5)
     plt.show()
-
-# In[ ]:
