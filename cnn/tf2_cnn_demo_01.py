@@ -3,8 +3,8 @@ import tensorflow as tf
 # os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 tf.config.gpu.set_per_process_memory_fraction = 0.9
-from tensorflow.python import keras
-from tensorflow.python.keras import layers
+from tensorflow import keras
+from tensorflow.keras import layers
 
 # print(tf.__version__)
 
