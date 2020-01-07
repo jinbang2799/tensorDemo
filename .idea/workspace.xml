@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d5ec62f-002e-4282-a4ca-917a51e871ec" name="Default" comment="demo代码提交">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn/cifar10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn/path_to_my_weights.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn/tf2_cnn_rnn_demo_02.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn/tf2_cnn_rnn_demo_02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cnn/tf2_cnn_rnn_demo_02_1.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tensorDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tensorDemo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cnn/tf2_cnn_demo_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/cnn/tf2_cnn_demo_01.py" afterDir="false" />
-    </list>
+    <list default="true" id="5d5ec62f-002e-4282-a4ca-917a51e871ec" name="Default" comment="demo代码提交" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -353,7 +340,7 @@
       <workItem from="1577507513719" duration="158000" />
       <workItem from="1577509121639" duration="48000" />
       <workItem from="1578364949351" duration="42000" />
-      <workItem from="1578365022535" duration="559000" />
+      <workItem from="1578365022535" duration="847000" />
     </task>
     <task id="LOCAL-00001" summary="初始提交">
       <created>1524733616167</created>
@@ -397,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555941466814</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="demo代码提交">
+      <created>1578365587275</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578365587275</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -437,6 +431,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="676" y="281" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1577461524332" />
+    <state x="579" y="130" width="808" height="817" key="CommitChangelistDialog2" timestamp="1578365875327">
+      <screen x="57" y="26" width="1863" height="1024" />
+    </state>
+    <state x="579" y="130" width="808" height="817" key="CommitChangelistDialog2/57.26.1863.1024@57.26.1863.1024" timestamp="1578365875327" />
     <state x="800" y="293" width="424" height="484" key="FileChooserDialogImpl" timestamp="1577461611103">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -472,10 +470,15 @@
     <state x="455" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575852822388" />
     <state x="774" y="240" width="1022" height="731" key="SettingsEditor/57.26.1863.1024@57.26.1863.1024" timestamp="1578365558413" />
     <state x="119" y="222" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1577507664559" />
-    <state x="450" y="212" key="git4idea.merge.GitPullDialog" timestamp="1576162269490">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="583" y="274" width="800" height="529" key="Vcs.Push.Dialog.v2" timestamp="1578365777828">
+      <screen x="57" y="26" width="1863" height="1024" />
+    </state>
+    <state x="583" y="274" width="800" height="529" key="Vcs.Push.Dialog.v2/57.26.1863.1024@57.26.1863.1024" timestamp="1578365777828" />
+    <state x="603" y="289" width="722" height="423" key="git4idea.merge.GitPullDialog" timestamp="1578365804273">
+      <screen x="57" y="26" width="1863" height="1024" />
     </state>
     <state x="450" y="212" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1576162269490" />
+    <state x="603" y="289" width="722" height="423" key="git4idea.merge.GitPullDialog/57.26.1863.1024@57.26.1863.1024" timestamp="1578365804273" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/tensorDemo$TF2_demo_01.coverage" NAME="TF2_demo_01 Coverage Results" MODIFIED="1555650264690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
