@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5d5ec62f-002e-4282-a4ca-917a51e871ec" name="Default" comment="demo代码提交">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn/cifar10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn/path_to_my_weights.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn/tf2_cnn_rnn_demo_02.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn/tf2_cnn_rnn_demo_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cnn/tf2_cnn_rnn_demo_02_1.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tensorDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tensorDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn/tf2_cnn_demo_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/cnn/tf2_cnn_demo_01.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/tensorDemo$NFA.coverage" NAME="NFA Coverage Results" MODIFIED="1537272920399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/tensorDemo$3_2MNIST2.coverage" NAME="3-2MNIST数据集分类简单版本2 Coverage Results" MODIFIED="1536161769299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/w3" />
+    <SUITE FILE_PATH="coverage/tensorDemo$Demo01.coverage" NAME="Demo01 Coverage Results" MODIFIED="1536900722770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/tensorDemo$Demo_3_1.coverage" NAME="Demo_3_1 Coverage Results" MODIFIED="1536159341587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/w3" />
+    <SUITE FILE_PATH="coverage/tensorDemo$tensorTest.coverage" NAME="tensorTest Coverage Results" MODIFIED="1536162927535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tensorDemo$3_1.coverage" NAME="3-1非线性回归 Coverage Results" MODIFIED="1536902517198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/w3" />
+    <SUITE FILE_PATH="coverage/tensorDemo$TfDemo.coverage" NAME="TfDemo Coverage Results" MODIFIED="1523718216314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tensorDemo$Test3.coverage" NAME="Test3 Coverage Results" MODIFIED="1536905115720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/tensorDemo$getImg.coverage" NAME="getImg Coverage Results" MODIFIED="1523432343681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tensorDemo$3_2MNIST.coverage" NAME="3-2MNIST数据集分类简单版本 Coverage Results" MODIFIED="1536159469138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/w3" />
+    <SUITE FILE_PATH="coverage/tensorDemo$Demo02.coverage" NAME="Demo02 Coverage Results" MODIFIED="1536668320537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/tensorDemo$Test.coverage" NAME="Test Coverage Results" MODIFIED="1536902663183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/tensorDemo$test.coverage" NAME="test Coverage Results" MODIFIED="1524732835599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/w3" />
+    <SUITE FILE_PATH="coverage/tensorDemo$bd.coverage" NAME="bd Coverage Results" MODIFIED="1536641621305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tensorDemo$DFA.coverage" NAME="DFA Coverage Results" MODIFIED="1537249465509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/tensorDemo$Demo_2_4.coverage" NAME="Demo_2_4 Coverage Results" MODIFIED="1524734801144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/w2" />
+    <SUITE FILE_PATH="coverage/tensorDemo$Demo_2_1.coverage" NAME="Demo_2_1 Coverage Results" MODIFIED="1536251085996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/w2" />
+    <SUITE FILE_PATH="coverage/tensorDemo$cifar10.coverage" NAME="cifar10 Coverage Results" MODIFIED="1540794501748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cnn" />
+    <SUITE FILE_PATH="coverage/tensorDemo$m1.coverage" NAME="m1 Coverage Results" MODIFIED="1536122006473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tensorDemo$cifar10_train.coverage" NAME="cifar10_train Coverage Results" MODIFIED="1540794679611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cnn" />
+    <SUITE FILE_PATH="coverage/tensorDemo$cifar10_multi_gpu_train.coverage" NAME="cifar10_multi_gpu_train Coverage Results" MODIFIED="1540779770088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cnn" />
+    <SUITE FILE_PATH="coverage/tensorDemo$MnistDemo.coverage" NAME="MnistDemo Coverage Results" MODIFIED="1539140685794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tensorDemo$Demo_2_2.coverage" NAME="Demo_2_2 Coverage Results" MODIFIED="1536641015481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/w2" />
+    <SUITE FILE_PATH="coverage/tensorDemo$Test2.coverage" NAME="Test2 Coverage Results" MODIFIED="1536727983136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\workspace\python\tensorDemo\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="GsKvtruw" />
+  </component>
+  <component name="ProjectId" id="1QxXFIMQ8hG7ehYhVnMDlZZQgMd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="dataset&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="tensorDemo" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="tensorDemo" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\python\tensorDemo\cnn" />
+      <recent name="D:\workspace\python\tensorDemo\w3" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\python\tensorDemo\w2" />
+      <recent name="D:\workspace\python\tensorDemo" />
+      <recent name="D:\workspace\python\tensorDemo\Demo2_4" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.tf2_cnn_demo_01">
+    <configuration name="Demo01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/Demo01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TF2_demo_01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/TF2_demo_01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="bili_demo_01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tf2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tf2/bili_demo_01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tensorDemo" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="tensorDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\dev\python\python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tf2_cnn_demo_01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cnn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cnn/tf2_cnn_demo_01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tf2_cnn_rnn_demo_02" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tensorDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cnn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cnn/tf2_cnn_rnn_demo_02.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.tensorDemo" />
+      <item itemvalue="Python.TF2_demo_01" />
+      <item itemvalue="Python.tf2_cnn_demo_01" />
+      <item itemvalue="Python.bili_demo_01" />
+      <item itemvalue="Python.tf2_cnn_rnn_demo_02" />
+      <item itemvalue="Python.Demo01" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.tf2_cnn_demo_01" />
+        <item itemvalue="Python.bili_demo_01" />
+        <item itemvalue="Python.tf2_cnn_rnn_demo_02" />
+        <item itemvalue="Python.Demo01" />
+        <item itemvalue="Python.TF2_demo_01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\jinbang\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d5ec62f-002e-4282-a4ca-917a51e871ec" name="Default" comment="" />
+      <created>1523426852497</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523426852497</updated>
+      <workItem from="1554792637651" duration="2614000" />
+      <workItem from="1554798044899" duration="4920000" />
+      <workItem from="1554803833473" duration="741000" />
+      <workItem from="1554805277182" duration="64000" />
+      <workItem from="1554805357548" duration="98000" />
+      <workItem from="1554805497179" duration="50000" />
+      <workItem from="1554805560861" duration="60000" />
+      <workItem from="1554866050432" duration="28000" />
+      <workItem from="1554866121734" duration="497000" />
+      <workItem from="1554866657901" duration="30000" />
+      <workItem from="1554866702745" duration="569000" />
+      <workItem from="1554867289380" duration="846000" />
+      <workItem from="1554872414306" duration="1482000" />
+      <workItem from="1554958434481" duration="4031000" />
+      <workItem from="1554963667010" duration="2174000" />
+      <workItem from="1555312090251" duration="3635000" />
+      <workItem from="1555397878751" duration="741000" />
+      <workItem from="1555463283440" duration="2431000" />
+      <workItem from="1555477187261" duration="1219000" />
+      <workItem from="1555562927824" duration="4352000" />
+      <workItem from="1555591953648" duration="3025000" />
+      <workItem from="1555647528093" duration="1404000" />
+      <workItem from="1555907148434" duration="3024000" />
+      <workItem from="1555938315820" duration="4694000" />
+      <workItem from="1555987917548" duration="1027000" />
+      <workItem from="1556018205664" duration="2679000" />
+      <workItem from="1556023967260" duration="14524000" />
+      <workItem from="1556099024395" duration="3326000" />
+      <workItem from="1556128428507" duration="17987000" />
+      <workItem from="1557021165640" duration="28000" />
+      <workItem from="1557053278538" duration="655000" />
+      <workItem from="1557140943594" duration="771000" />
+      <workItem from="1557289404356" duration="3428000" />
+      <workItem from="1557400141462" duration="613000" />
+      <workItem from="1560212491841" duration="145000" />
+      <workItem from="1561541606031" duration="1284000" />
+      <workItem from="1568713117036" duration="2030000" />
+      <workItem from="1569303803141" duration="4596000" />
+      <workItem from="1569555055964" duration="31000" />
+      <workItem from="1569555115725" duration="2241000" />
+      <workItem from="1574412597403" duration="27000" />
+      <workItem from="1574412677668" duration="250000" />
+      <workItem from="1574412972308" duration="114000" />
+      <workItem from="1574773097045" duration="1034000" />
+      <workItem from="1574827900839" duration="864000" />
+      <workItem from="1575020044068" duration="72000" />
+      <workItem from="1575020126843" duration="204000" />
+      <workItem from="1575850555149" duration="68000" />
+      <workItem from="1575850693468" duration="1206000" />
+      <workItem from="1575852542988" duration="513000" />
+      <workItem from="1576161502752" duration="99000" />
+      <workItem from="1576161687926" duration="368000" />
+      <workItem from="1576162076586" duration="235000" />
+      <workItem from="1576207936874" duration="22000" />
+      <workItem from="1577149293890" duration="14000" />
+      <workItem from="1577149576809" duration="3000" />
+      <workItem from="1577149709005" duration="74000" />
+      <workItem from="1577461515437" duration="1233000" />
+      <workItem from="1577505197323" duration="862000" />
+      <workItem from="1577507513719" duration="158000" />
+      <workItem from="1577509121639" duration="48000" />
+      <workItem from="1578364949351" duration="42000" />
+      <workItem from="1578365022535" duration="559000" />
+    </task>
+    <task id="LOCAL-00001" summary="初始提交">
+      <created>1524733616167</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1524733616167</updated>
+    </task>
+    <task id="LOCAL-00002" summary="优化session">
+      <created>1524734670032</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1524734670032</updated>
+    </task>
+    <task id="LOCAL-00003" summary="增加cnn代码">
+      <created>1540779988136</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1540779988136</updated>
+    </task>
+    <task id="LOCAL-00004" summary="demo代码提交">
+      <created>1540780013484</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1540780013484</updated>
+    </task>
+    <task id="LOCAL-00005" summary="demo代码提交">
+      <created>1554866357056</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554866357056</updated>
+    </task>
+    <task id="LOCAL-00006" summary="demo代码提交">
+      <created>1555941466814</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1555941466814</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始提交" />
+    <MESSAGE value="优化session" />
+    <MESSAGE value="增加cnn代码" />
+    <MESSAGE value="demo代码提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="demo代码提交" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="676" y="281" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1577461524332">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="676" y="281" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1577461524332" />
+    <state x="800" y="293" width="424" height="484" key="FileChooserDialogImpl" timestamp="1577461611103">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="800" y="293" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1577461611103" />
+    <state width="903" height="252" key="GridCell.Tab.0.bottom" timestamp="1577507487713">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1493" height="202" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576162312365" />
+    <state width="903" height="252" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577507487713" />
+    <state width="903" height="252" key="GridCell.Tab.0.center" timestamp="1577507487713">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1493" height="202" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576162312365" />
+    <state width="903" height="252" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577507487713" />
+    <state width="903" height="252" key="GridCell.Tab.0.left" timestamp="1577507487713">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1493" height="202" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576162312365" />
+    <state width="903" height="252" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577507487713" />
+    <state width="903" height="252" key="GridCell.Tab.0.right" timestamp="1577507487713">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1493" height="202" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576162312365" />
+    <state width="903" height="252" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577507487713" />
+    <state x="582" y="123" key="RollbackChangesDialog" timestamp="1576161904875">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="582" y="123" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1576161904875" />
+    <state x="774" y="240" width="1022" height="731" key="SettingsEditor" timestamp="1578365558413">
+      <screen x="57" y="26" width="1863" height="1024" />
+    </state>
+    <state x="364" y="112" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1576161812017" />
+    <state x="455" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575852822388" />
+    <state x="774" y="240" width="1022" height="731" key="SettingsEditor/57.26.1863.1024@57.26.1863.1024" timestamp="1578365558413" />
+    <state x="119" y="222" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1577507664559" />
+    <state x="450" y="212" key="git4idea.merge.GitPullDialog" timestamp="1576162269490">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="450" y="212" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1576162269490" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tensorDemo$TF2_demo_01.coverage" NAME="TF2_demo_01 Coverage Results" MODIFIED="1555650264690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/tensorDemo$tf2_cnn_demo_01.coverage" NAME="tf2_cnn_demo_01 Coverage Results" MODIFIED="1577507278688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cnn" />
+    <SUITE FILE_PATH="coverage/tensorDemo$Demo01.coverage" NAME="Demo01 Coverage Results" MODIFIED="1575020193767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/tensorDemo$tf2_cnn_rnn_demo_02.coverage" NAME="tf2_cnn_rnn_demo_02 Coverage Results" MODIFIED="1576162084646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cnn" />
+    <SUITE FILE_PATH="coverage/tensorDemo$cifar10_train.coverage" NAME="cifar10_train Coverage Results" MODIFIED="1554958978713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cnn" />
+    <SUITE FILE_PATH="coverage/tensorDemo$Demo02.coverage" NAME="Demo02 Coverage Results" MODIFIED="1554867473590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/tensorDemo$bili_demo_01.coverage" NAME="bili_demo_01 Coverage Results" MODIFIED="1577462058916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tf2" />
+    <SUITE FILE_PATH="coverage/tensorDemo$tensorDemo.coverage" NAME="tensorDemo Coverage Results" MODIFIED="1554801651266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
